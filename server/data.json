@@ -1,0 +1,550 @@
+{
+  "languages": [
+      {
+          "id": 0,
+          "name": "🇹🇷 Türkçe",
+          "symbol": "tr"
+      },
+      {
+          "id": 0,
+          "name": "English",
+          "symbol": "en"
+      }
+  ],
+  "categories": [
+      {
+          "id": 0,
+          "name": {
+              "en": "Hamburgers",
+              "tr": "Hamburgerler"
+          }
+      },
+      {
+          "id": 1,
+          "name": {
+              "en": "Salads",
+              "tr": "Salatalar"
+          }
+      },
+      {
+          "id": 2,
+          "name": {
+              "en": "Pasta",
+              "tr": "Makarnalar"
+          }
+      },
+      {
+          "id": 3,
+          "name": {
+              "en": "Meat Dishes",
+              "tr": "Et Yemekleri"
+          }
+      },
+      {
+          "id": 4,
+          "name": {
+              "en": "Chicken Dishes",
+              "tr": "Tavuklu Yemekler"
+          }
+      },
+      {
+          "id": 5,
+          "name": {
+              "en": "Soups",
+              "tr": "Çorba"
+          }
+      },
+      {
+          "id": 6,
+          "name": {
+              "en": "Desserts",
+              "tr": "Tatlılar"
+          }
+      },
+      {
+          "id": 7,
+          "name": {
+              "en": "Drinks",
+              "tr": "İçecekler"
+          }
+      }
+  ],
+  "menuItems": [
+      {
+          "id": 0,
+          "imageURL": "veganburger.png",
+          "name": {
+              "en": "Vegan Burger",
+              "tr": "Vegan Burger"
+          },
+          "description": {
+              "en": "Special to vegan customers",
+              "tr": "Veganlara özel hazırladığımız burger"
+          },
+          "price": 49.99,
+          "categoryID": 0
+      },
+      {
+          "id": 1,
+          "imageURL": "peynirLezizBurger.png",
+          "name": {
+              "en": "Cheese Delight Burger",
+              "tr": "Peynir Leziz Burger"
+          },
+          "description": {
+              "en": "Loaded with delicious cheese",
+              "tr": "Bol peynirli burger"
+          },
+          "price": 75,
+          "categoryID": 0
+      },
+      {
+          "id": 2,
+          "imageURL": "barbekuDeluxeBurger.png",
+          "name": {
+              "en": "Barbecue Deluxe Burger",
+              "tr": "Barbekü Deluxe Burger"
+          },
+          "description": {
+              "en": "Deluxe burger with barbecue sauce",
+              "tr": "Barbekü soslu deluxe burger"
+          },
+          "price": 75,
+          "categoryID": 0
+      },
+      {
+          "id": 3,
+          "imageURL": "cheeseBurger.png",
+          "name": {
+              "en": "Cheese Burger",
+              "tr": "Cheese Burger"
+          },
+          "description": {
+              "en": "Classic burger with cheese",
+              "tr": "Klasik peynirli burger"
+          },
+          "price": 75,
+          "categoryID": 0
+      },
+      {
+          "id": 4,
+          "imageURL": "creamyMushroomPasta.png",
+          "name": {
+              "en": "Creamy & Mushroom Pasta",
+              "tr": "Kremalı & Mantarlı Makarna"
+          },
+          "description": {
+              "en": "Pasta with cream and mushrooms",
+              "tr": "Kremalı ve mantarlı makarna"
+          },
+          "price": 49.99,
+          "categoryID": 2
+      },
+      {
+          "id": 5,
+          "imageURL": "tomatoSaucePasta.png",
+          "name": {
+              "en": "Tomato Sauce Pasta",
+              "tr": "Domates Soslu Makarna"
+          },
+          "description": {
+              "en": "Pasta in a rich tomato sauce",
+              "tr": "Zengin domates soslu makarna"
+          },
+          "price": 75,
+          "categoryID": 2
+      },
+      {
+          "id": 6,
+          "imageURL": "cheesePasta.png",
+          "name": {
+              "en": "Cheese Pasta",
+              "tr": "Peynirli Makarna"
+          },
+          "description": {
+              "en": "Pasta with a blend of cheeses",
+              "tr": "Çeşitli peynirlerle hazırlanmış makarna"
+          },
+          "price": 75,
+          "categoryID": 2
+      },
+      {
+          "id": 7,
+          "imageURL": "veganPasta.png",
+          "name": {
+              "en": "Vegan Pasta",
+              "tr": "Vegan Makarna"
+          },
+          "description": {
+              "en": "Delicious vegan-friendly pasta",
+              "tr": "Veganlara uygun lezzetli makarna"
+          },
+          "price": 75,
+          "categoryID": 2
+      },
+      {
+          "id": 8,
+          "imageURL": "grilledMeatballs.png",
+          "name": {
+              "en": "Grilled Meatballs",
+              "tr": "Izgara Köfte"
+          },
+          "description": {
+              "en": "Juicy grilled meatballs",
+              "tr": "Sulu ızgara köfteler"
+          },
+          "price": 49.99,
+          "categoryID": 3
+      },
+      {
+          "id": 9,
+          "imageURL": "yogurtMeatballs.png",
+          "name": {
+              "en": "Yogurt Meatballs",
+              "tr": "Yoğurtlu köfte"
+          },
+          "description": {
+              "en": "Meatballs served with yogurt",
+              "tr": "Yoğurtla servis edilen köfteler"
+          },
+          "price": 75,
+          "categoryID": 3
+      },
+      {
+          "id": 10,
+          "imageURL": "yogurtKebab.png",
+          "name": {
+              "en": "Yogurt Kebab",
+              "tr": "Yoğurtlu Kebap"
+          },
+          "description": {
+              "en": "Kebab with a yogurt sauce",
+              "tr": "Yoğurt soslu kebap"
+          },
+          "price": 75,
+          "categoryID": 3
+      },
+      {
+          "id": 11,
+          "imageURL": "meatWrap.png",
+          "name": {
+              "en": "Meat Wrap",
+              "tr": "Etli Dürüm"
+          },
+          "description": {
+              "en": "Wrap filled with seasoned meat",
+              "tr": "Baharatlı etle doldurulmuş dürüm"
+          },
+          "price": 75,
+          "categoryID": 3
+      },
+      {
+          "id": 12,
+          "imageURL": "grilledChicken.png",
+          "name": {
+              "en": "Grilled Chicken",
+              "tr": "Izgara Tavuk"
+          },
+          "description": {
+              "en": "Perfectly grilled chicken",
+              "tr": "Mükemmel ızgara tavuk"
+          },
+          "price": 49.99,
+          "categoryID": 4
+      },
+      {
+          "id": 13,
+          "imageURL": "buffaloChicken.png",
+          "name": {
+              "en": "Buffalo Chicken",
+              "tr": "Tavuklu Buffalo Soslu Yemek"
+          },
+          "description": {
+              "en": "Chicken in spicy buffalo sauce",
+              "tr": "Acılı buffalo soslu tavuk"
+          },
+          "price": 75,
+          "categoryID": 4
+      },
+      {
+          "id": 14,
+          "imageURL": "saucedChickenWings.png",
+          "name": {
+              "en": "Sauced Chicken Wings",
+              "tr": "Soslu Tavuk Kanat"
+          },
+          "description": {
+              "en": "Chicken wings in a savory sauce",
+              "tr": "Lezzetli soslu tavuk kanatları"
+          },
+          "price": 75,
+          "categoryID": 4
+      },
+      {
+          "id": 15,
+          "imageURL": "chickenWrap.png",
+          "name": {
+              "en": "Chicken Wrap",
+              "tr": "Tavuklu Dürüm"
+          },
+          "description": {
+              "en": "Wrap filled with spicy chicken",
+              "tr": "Baharatlı tavukla doldurulmuş dürüm"
+          },
+          "price": 75,
+          "categoryID": 4
+      },
+      {
+          "id": 16,
+          "imageURL": "creamMushroomSoup.png",
+          "name": {
+              "en": "Cream & Mushroom Soup",
+              "tr": "Kremalı&Mantarlı Çorba"
+          },
+          "description": {
+              "en": "Creamy mushroom soup",
+              "tr": "Kremalı mantar çorbası"
+          },
+          "price": 49.99,
+          "categoryID": 5
+      },
+      {
+          "id": 17,
+          "imageURL": "tomatoSoup.png",
+          "name": {
+              "en": "Tomato Soup",
+              "tr": "Domates Çorbası"
+          },
+          "description": {
+              "en": "Rich and hearty tomato soup",
+              "tr": "Zengin ve doyurucu domates çorbası"
+          },
+          "price": 75,
+          "categoryID": 5
+      },
+      {
+          "id": 18,
+          "imageURL": "soupOfTheDay.png",
+          "name": {
+              "en": "Soup of the Day",
+              "tr": "Günün Çorbası"
+          },
+          "description": {
+              "en": "Daily special soup",
+              "tr": "Günün özel çorbası"
+          },
+          "price": 75,
+          "categoryID": 5
+      },
+      {
+          "id": 19,
+          "imageURL": "chocolateCake.png",
+          "name": {
+              "en": "Chocolate Cake",
+              "tr": "Çikolatalı Kek"
+          },
+          "description": {
+              "en": "Rich chocolate cake",
+              "tr": "Zengin çikolatalı kek"
+          },
+          "price": 49.99,
+          "categoryID": 6
+      },
+      {
+          "id": 20,
+          "imageURL": "applePie.png",
+          "name": {
+              "en": "Creamy Apple Pie",
+              "tr": "Kremalı Elmalı Turta"
+          },
+          "description": {
+              "en": "Apple pie with creamy filling",
+              "tr": "Kremalı elmalı turta"
+          },
+          "price": 75,
+          "categoryID": 6
+      },
+      {
+          "id": 21,
+          "imageURL": "rolledBaklava.png",
+          "name": {
+              "en": "Rolled Baklava",
+              "tr": "Dondurmalı Baklava"
+          },
+          "description": {
+              "en": "Baklava served with ice cream",
+              "tr": "Dondurma ile servis edilen baklava"
+          },
+          "price": 75,
+          "categoryID": 6
+      },
+      {
+          "id": 22,
+          "imageURL": "spongeCake.png",
+          "name": {
+              "en": "Sponge Cake",
+              "tr": "Havuçlu Kek"
+          },
+          "description": {
+              "en": "Soft sponge cake with carrots",
+              "tr": "Havuçlu yumuşak sünger kek"
+          },
+          "price": 75,
+          "categoryID": 6
+      },
+      {
+          "id": 23,
+          "imageURL": "layeredPastaDessert.png",
+          "name": {
+              "en": "Layered Pasta Dessert",
+              "tr": "Dilim Pasta"
+          },
+          "description": {
+              "en": "Multi-layered sweet pasta",
+              "tr": "Katmanlı tatlı pasta"
+          },
+          "price": 65,
+          "categoryID": 6
+      },
+      {
+          "id": 24,
+          "imageURL": "water.png",
+          "name": {
+              "en": "Water",
+              "tr": "Su"
+          },
+          "description": {
+              "en": "Fresh water",
+              "tr": "Taze su"
+          },
+          "price": 14,
+          "categoryID": 7
+      },
+      {
+          "id": 25,
+          "imageURL": "buttermilk.png",
+          "name": {
+              "en": "Buttermilk",
+              "tr": "Ayran"
+          },
+          "description": {
+              "en": "Refreshing buttermilk",
+              "tr": "Ferahlatıcı ayran"
+          },
+          "price": 14,
+          "categoryID": 7
+      },
+      {
+          "id": 26,
+          "imageURL": "soda.png",
+          "name": {
+              "en": "Soda",
+              "tr": "Gazoz"
+          },
+          "description": {
+              "en": "Sparkling soda",
+              "tr": "Gazoz"
+          },
+          "price": 14,
+          "categoryID": 7
+      },
+      {
+          "id": 27,
+          "imageURL": "fruitJuice.png",
+          "name": {
+              "en": "Fruit Juice",
+              "tr": "Meyve Suyu"
+          },
+          "description": {
+              "en": "Natural fruit juice",
+              "tr": "Doğal meyve suyu"
+          },
+          "price": 14,
+          "categoryID": 7
+      },
+      {
+          "id": 28,
+          "imageURL": "lemonade.png",
+          "name": {
+              "en": "Lemonade",
+              "tr": "Limonata"
+          },
+          "description": {
+              "en": "Freshly squeezed lemonade",
+              "tr": "Taze sıkılmış limonata"
+          },
+          "price": 14,
+          "categoryID": 7
+      },
+      {
+          "id": 29,
+          "imageURL": "grilledChickenSalad.png",
+          "name": {
+              "en": "Grilled Chicken Salad",
+              "tr": "Izgara Tavuk Salata"
+          },
+          "description": {
+              "en": "Grilled chicken breast on a bed of mixed greens",
+              "tr": "Karışık yeşillikler üzerinde ızgara tavuk göğüs"
+          },
+          "price": 49.99,
+          "categoryID": 1
+      },
+      {
+          "id": 30,
+          "imageURL": "mediterraneanSalad.png",
+          "name": {
+              "en": "Mediterranean Salad",
+              "tr": "Akdeniz Salata"
+          },
+          "description": {
+              "en": "A fresh mix of Mediterranean veggies with olives and feta",
+              "tr": "Zeytin ve feta peyniri ile Akdeniz sebzelerinin taze karışımı"
+          },
+          "price": 75,
+          "categoryID": 1
+      },
+      {
+          "id": 31,
+          "imageURL": "grilledMeatSalad.png",
+          "name": {
+              "en": "Grilled Meat Salad",
+              "tr": "Izgara Et Salata"
+          },
+          "description": {
+              "en": "Succulent grilled meat with seasonal greens",
+              "tr": "Mevsim yeşillikleri ile lezzetli ızgara et"
+          },
+          "price": 75,
+          "categoryID": 1
+      },
+      {
+          "id": 32,
+          "imageURL": "veganSalad.png",
+          "name": {
+              "en": "Vegan Salad",
+              "tr": "Vegan Salata"
+          },
+          "description": {
+              "en": "A vibrant salad tailored for vegans",
+              "tr": "Veganlar için özel canlı bir salata"
+          },
+          "price": 75,
+          "categoryID": 1
+      },
+      {
+          "id": 33,
+          "imageURL": "quinoaHerbSalad.png",
+          "name": {
+              "en": "Quinoa Herb Salad",
+              "tr": "Kinoalı Çilekli Salata"
+          },
+          "description": {
+              "en": "Quinoa mixed with fresh herbs and strawberries",
+              "tr": "Taze otlar ve çilek ile karıştırılmış kinoa"
+          },
+          "price": 65,
+          "categoryID": 1
+      }
+  ]
+}

@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Başlık için genel stil */
+h2 {
+    color: #333;
+    padding: 10px;
+    border-bottom: 2px solid #ddd; /* Başlık altında ince bir çizgi ekler */
+    cursor: pointer; /* İmleç, üzerine geldiğinde el şeklini alır */
+    background-color: #f8f8f8; /* Başlık için hafif arka plan rengi */
+    margin-top: 0;
+    margin-bottom: 0;
+    user-select: none; /* Başlık metnini seçilemez yapar */
+}
+
+h2:hover {
+    background-color: #e9e9e9; /* İmleç başlığın üzerine geldiğinde arka plan rengi değişir */
+}
+
+.modal-content h2 {
+    border-bottom: none; /* Modal içindeki başlıklarda alt çizgi kaldırılır */
+    cursor: default; /* Modal içindeki başlıklar için imleç değişikliği */
+    background-color: transparent; /* Modal içindeki başlıklar için arka plan rengi */
+    color: #5C67F2; /* Modal içindeki başlıklar için metin rengi */
+}
+
+/* Ana başlık için stil */
+h1 {
+    color: #5C67F2;
+    margin-bottom: 20px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+.close-button {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    display: block;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #5C67F2;
+    outline: none;
+}
+
+button.button {
+    padding: 10px 20mpx;
+    background-color: #5C67F2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.button:hover {
+    background-color: #6a74f7;
+}
+
+.add-button {
+    padding: 8px 16px;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-size: 16px;
+}

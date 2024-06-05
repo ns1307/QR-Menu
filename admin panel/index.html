@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Menu Admin Panel</h1>
+    <div id="menu-editor">
+        <div id="categories-header">
+            <h2>Categories▼</h2>
+        </div>
+        <button class="button add-button" onclick="showModal('category')">Add New Category</button>
+
+        <div id="categories-container"></div>
+        <div id="menu-items-header">
+            <h2>Menu Items▼</h2>
+        </div>
+        <button class="button add-button" onclick="showModal('menuItem')">Add New Menu Item</button>
+
+        <div id="menu-items-container"></div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <form id="modal-form"></form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+}
+.title{
+    margin: 0 auto;
+}
+body {
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.42);
+}
+
+.underline {
+    margin: 0 auto;
+    width: 150px;
+    height: 5px;
+    background-color: #543100;
+}
+
+.menu-items {
+    /* max-width: 1770px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-between;
+}
+
+.card {
+    width: 50%;
+    margin: 0 0 5px 0 ;
+    padding: 0 0;
+    border: none;
+    background: none;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card img {
+    object-fit: cover; /* Oranı korur ve çerçeveye sığacak şekilde kırpma yapar */
+    object-position: center; /* Resmi merkezde odaklar */
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 770px) and (min-width:590px) {
+    
+    .heading{
+        max-width: 750px;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+    }
+    .menu-items {
+        /* max-width: 1770px; */
+        max-width: 750px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        padding: 10px 10px;
+        max-width: 550px;
+    }
+    .card img {
+        object-fit: cover; /* Oranı korur ve çerçeveye sığacak şekilde kırpma yapar */
+        object-position: center; /* Resmi merkezde odaklar */
+        width: 100%;
+        /* width: 400px;
+        height: 200px; */
+        margin: auto;
+        /* min-width: none; */
+    }
+    .card-body {
+        padding: 0;
+    }
+    .card-title {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width:770px) {
+    .card {
+        padding: 10px 10px;
+        max-width: 700px;
+    }
+    .menu-items {
+        justify-content: center;
+    }
+    .card img {
+        object-fit: cover; /* Oranı korur ve çerçeveye sığacak şekilde kırpma yapar */
+        object-position: center; /* Resmi merkezde odaklar */
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    /* .container {
+        width: 50%;
+    } */
+    .heading{
+        min-width: 300px;
+        width: 100%;
+        justify-content: center;
+    }
+    .menu-items {
+        /* max-width: 1770px; */
+        min-width: 300px;
+        width: 100%;
+    }
+    
+    .menu-items {
+        /* max-width: 1770px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:  space-between;
+    }
+    .card {
+        width: 100%;
+    }
+    .card img {
+        object-fit: cover; /* Oranı korur ve çerçeveye sığacak şekilde kırpma yapar */
+        object-position: center; /* Resmi merkezde odaklar */
+        width: 100%;
+    }
+    .card-body {
+        margin-top: 10px;
+        margin: 10px;
+        padding: 0;
+    }
+    .card-title {
+        margin-top: 10px;
+    }
+}
+
+.card-title {
+    width: 100%;
+    border-bottom: 1px dotted black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title h5,
+.price {
+    letter-spacing: 2px;
+}
+
+.card-text {
+    color: steelblue;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
