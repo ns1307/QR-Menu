@@ -8,9 +8,10 @@ Amaç restoran,cafe tarzı işletmelerin menüsünün sdaece QR kod okutarak bir
 ##Teknolojiler
 Front-end için HTML/CSS ve Javascript kullanıldı.
 Backend tarafının hızlı olması için sadece Node.js kullanıldı.
-veriler bir ".json" dosyasında tutulmaktadır ve güncellemeler bu dosya üzerinde yapılmaktadır.
+veriler bir ".json" dosyasında tutulmaktadır ve güncellemeler bu dosya üzerinde yapılmaktadır. Çünkü json dosyalarındaki Okuma/Yazma Veritabanlarından daha hızlıdır.
 Front-end Back-end iletişimi REST API aracılığıyla yapılmaktadır.
 ##Yapılanlar
+Menü hazır, müşteriler menüyü görüntüleyebilir.
 Admin Paneli hazır ve tüm fonksiyonlarıyla çaışmaktadır:
 - Ürün için:
   - Yeni Ürün oluşturma
@@ -22,7 +23,6 @@ Admin Paneli hazır ve tüm fonksiyonlarıyla çaışmaktadır:
   - Kategori güncelleme (Kategori ismi (her bir dil için))
   
 ##Yapılacaklar
-
 Birden fazla fiyat belirleyebilme (İsteğe bağlı olacak, bazı ürünler tek fiyat, bazı ürünler çoklu fiyata sahip olabilir.):
 - Örneğin bir hamburger için gramaja göre farklı fiyatların alt alta gösterilmesi ve bu fiyatların Admin Panelinden güncelleneilmesi. Örnek senaryo: 90gr -> 150TL, 120gr -> 180TL, 150gr -> 200TL gibi.
 Canlı demo hazırlanması:
