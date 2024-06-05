@@ -22,7 +22,7 @@ Admin Panel is ready and working with all its functions:
  - Delete category
  - Category update (Category name (for each language))
 ## ToDo
-Ability to set multiple prices (Optional, some products may have a single price, some products may have multiple prices):
-- For example, showing different prices for a hamburger according to size and these prices can be updated from the Admin Panel. Example scenario: 90gr -> 150TL, 120gr -> 180TL, 150gr -> 200TL etc.
-Preparation of live demo:
-- The project runs on localhost. Once a domain and hosting is set up, the demo will be shared here when it becomes available.
+- Ability to set multiple prices (Optional, some products may have a single price, some products may have multiple prices):
+ - For example, showing different prices for a hamburger according to size and these prices can be updated from the Admin Panel. Example scenario: 90gr -> 150TL, 120gr -> 180TL, 150gr -> 200TL etc.
+- Preparation of live demo:
+ - The project runs on localhost. Once a domain and hosting is set up, the demo will be shared here when it becomes available.
