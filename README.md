@@ -1,16 +1,16 @@
 # QR-Menu
-##Goal
+## Goal
 The aim is to let customers access the digital menu of restaurants through a website by simply scanning the QR code. The business owner can make many changes to the menu that customers see, such as price updates and content editing, via the Admin Panel:
 - Multiple language support: Each category, product name and product description can be set to be different for each language, so the menu supports more than one language.
 - Update from Admin Panel: Category Name, Product Name and Product description can be updated separately for each language from the Admin Panel; Language-independent features such as price and product image are common for all languages ​​and can be updated from the Admin Panel.
 - Product and Category Update: All information about products and categories can be updated from the Admin Panel.
 - Adding/deleting products and categories: New products/categories can be added or existing ones can be deleted from the Admin Panel.
-##Technologies
+## Technologies
 HTML/CSS and Javascript were used for front-end.
 Only Node.js was used to make the backend faster.
 The data is kept in a ".json" file and updates are made on this file.Because Read/Write in json files are faster than Databases.
 Front-end and Back-end communication is done via REST API.
-##Ready
+## Ready
 Menu is ready, customers can see the menu.
 Admin Panel is ready and working with all its functions:
 - For the product:
