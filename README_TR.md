@@ -22,7 +22,7 @@ Admin Paneli hazır ve tüm fonksiyonlarıyla çaışmaktadır:
   - Kategori silme
   - Kategori güncelleme (Kategori ismi (her bir dil için))
 ## Yapılacaklar
-Birden fazla fiyat belirleyebilme (İsteğe bağlı olacak, bazı ürünler tek fiyat, bazı ürünler çoklu fiyata sahip olabilir.):
-- Örneğin bir hamburger için gramaja göre farklı fiyatların alt alta gösterilmesi ve bu fiyatların Admin Panelinden güncelleneilmesi. Örnek senaryo: 90gr -> 150TL, 120gr -> 180TL, 150gr -> 200TL gibi.
-Canlı demo hazırlanması:
-- Proje localhost'ta çalışmaktadır. Bir domain ve hosting ayarlandıktan sonra demo erişilebilir hale geldiğinde buradan paylaşılacaktır.
+-Birden fazla fiyat belirleyebilme (İsteğe bağlı olacak, bazı ürünler tek fiyat, bazı ürünler çoklu fiyata sahip olabilir.):
+  - Örneğin bir hamburger için gramaja göre farklı fiyatların alt alta gösterilmesi ve bu fiyatların Admin Panelinden güncelleneilmesi. Örnek senaryo: 90gr -> 150TL, 120gr -> 180TL, 150gr -> 200TL gibi.
+- Canlı demo hazırlanması:
+  - Proje localhost'ta çalışmaktadır. Bir domain ve hosting ayarlandıktan sonra demo erişilebilir hale geldiğinde buradan paylaşılacaktır.
